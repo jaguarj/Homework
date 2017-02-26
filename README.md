@@ -1,2 +1,2 @@
 # Homework
-Daily homework exercises. 
+Daily homework and lab exercises. 
