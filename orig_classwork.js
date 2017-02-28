@@ -13,8 +13,6 @@ var resOne = ( 1 === 1 || 1 ===  2);
 true
 
 
-
-
 // 2. null || ''
 var resTwo;
 false
