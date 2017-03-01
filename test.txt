@@ -1,4 +1,0 @@
-This is just a test to push to git. 
-This is just another attempt.
-This is just the fourth attempt. 
-Blah…
