@@ -1,0 +1,150 @@
+Skip to content
+This repository
+Search
+Pull requests
+/*Issues
+Gist
+ @jaguarj
+ Sign out
+ Watch 4
+  Star 0
+  Fork 33 ATL-WDI-Curriculum/atl-wdi-9
+ Code  Issues 8  Pull requests 1  Projects 0  Wiki  Pulse  Graphs
+Branch: master Find file Copy pathatl-wdi-9/unit_01/w01d04/student_labs/js-dice-lab/starter-code/css/style.css
+b9587d7  on Dec 1, 2016
+ Marc Wright Updated w01d04 lessons + labs
+0 contributors
+RawBlameHistory
+100 lines (81 sloc)  1.73 KB*/
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+  marign: 0 auto;
+  text-align: center;
+  background: linear-gradient(45deg,
+                              #fa0 25%, #58a 0, #58a 50%,
+                              #fc5 0, #fb3 75%, #58a 0);
+
+ background-size: 200px 200px;
+}
+
+h1 {
+  margin-left: -85px;
+  font-size: 40px;
+}
+input:hover {
+  color:white;
+  background: red;
+  border-radius:10px;
+}
+
+#container {
+	width: auto;
+	margin-top: 140px;
+
+
+}
+
+#content span {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 20px;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.dice,
+.dice-1,
+.dice-2,
+.dice-3,
+.dice-4,
+.dice-5,
+.dice-6   {
+  box-shadow: 1px 1px 20px 1px;
+  border-radius: 20px;
+}
+.dice-1 {
+  background-image: url('../img/1.png');
+}
+.dice-2 {
+  background-image: url('../img/2.png');
+}
+.dice-3 {
+  background-image: url('../img/3.png');
+}
+.dice-4 {
+  background-image: url('../img/4.png');
+}
+.dice-5 {
+  background-image: url('../img/5.png');
+}
+.dice-6 {
+  background-image: url('../img/6.png');
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+/*
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help*/
