@@ -1,3 +1,11 @@
+//Hello World - Josh Seipel
+
+// var express = require('express');
+// var app = express();
+// app.get('/home', function(req, res) {
+// 	res.end('Hello World!');
+// });
+// app.listen(process.argv[2]);
 
 var express = require('express');
 var app = express();
@@ -40,15 +48,3 @@ app.get('/search', function(req, res){
 
 
 app.listen(process.argv[2] || 3000);
-
-// app.listen(process.argv[2]);
-//Hello World - Josh Seipel
-
-// var express = require('express');
-// var app = express();
-// app.get('/home', function(req, res) {
-// 	res.end('Hello World!');
-// });
-// app.listen(process.argv[2]);
-
-//
