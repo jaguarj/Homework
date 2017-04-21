@@ -1,0 +1,21 @@
+<h1>Comments#index</h1>
+<p>Find me in app/views/comments/index.html.erb</p>
+
+<h1>Comments</h1>
+
+<!-- I want to show the individual article. -->
+<h1><%= @article.content %></h1>
+
+<br />
+<br />
+
+<!-- I want to show the comments for this article. -->
+<% @comments.each do |comment| %>
+	<!-- <h6><%= comment.title %></h6> -->
+
+	<!-- I want to be able to link back to the articles page from the comments page. -->
+	<p><%= link_to articles.title, article_path(ariticle.id) %></p>
+<% end %>
+
+<%= link_to "Click me to go back!", articles_index_path %>
+
